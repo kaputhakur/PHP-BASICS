@@ -8,14 +8,15 @@
 </head>
 <h2>Variable</h2>
 <!-- variable name start with _or letter   -->
+<h2> $_SERVER  Variable</h2>
 <?php
 // we can change variable name with & SIGN
-$a="kapu";
-$b=&$a;
-$b="helo my name is $b";
-echo"$b";
-echo"<h3>Predefinded variables</h3>";
-// $_SERVER hold the information of header,path, and scripts location serever information
+// $a="kapu";
+// $b=&$a;
+// $b="helo my name is $b";
+// echo"$b";
+
+// $_SERVER hold the information of header,path, and scripts location.... serever information
 echo$_SERVER['PHP_SELF'];
 echo"<br>";
 echo$_SERVER['SERVER_NAME'];
@@ -25,7 +26,8 @@ echo$_SERVER['HTTP_HOST'];echo"<br>";
  echo$_SERVER['HTTP_USER_AGENT'];// which browser is used 
 ?>
 <br><br>
-<!-- $_GET  -->
+<!------------------------------------------------------ $_GET----------------------------------------------- -->
+ <h2>$_GET Variable</h2>
 <?php
 // isset check weather variable is set and it is not null
 /*
@@ -34,8 +36,8 @@ if(isset($_GET['name'])){
 }
 */
 if($_GET['name'] || $_GET['age']){
-    echo"Wlecome".$_GET['name'];
-    echo"YOur age is ".$_GET['age'];
+   echo"Welcome"."\n".$_GET['name']."<br>";
+   echo"Your age is".$_GET['age']; 
 }
 ?>
 <form method="get" action="#">
@@ -43,7 +45,15 @@ if($_GET['name'] || $_GET['age']){
  Age:<input type="text" name="age"/>
  <input type="submit">
 </form>
+<!------------------------------------------------------ $_GET----------------------------------------------- -->
 
+<!------------------------------------------------------ $_files----------------------------------------------- -->
+<h2>$_FILES Variable</h2>
+
+<form method="post" action="#" enctype="multipart/form-data">
+  FILE:<input type="file" name="file" id="file">
+ <input type="submit" value="submit">   
+</form>
 
 
 </body>
