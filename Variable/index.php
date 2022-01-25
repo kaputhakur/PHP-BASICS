@@ -51,7 +51,8 @@ if($_GET['name'] || $_GET['age']){
 <h2>$_FILES Variable</h2>
 <?php
 if(isset($_FILES['file'])){
-    echo "Filename: " . $_FILES['file']['name'];
+    echo "Filename: " . $_FILES['file']['name']."<br>";
+    echo"Type:" .$_FILES['file']['type']; 
 }
 ?>
 <form method="post" action="index.php" enctype="multipart/form-data">

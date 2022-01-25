@@ -21,8 +21,11 @@ echo"$names[3] <br>";
 
 //  Associative array (we define key value in associative array)
  echo"<h3>associative array</h3>";
- $age= array('kapu' => 23, 'himanshu'=>24,'apu'=>25,);
- echo" $age[himanshu]";
+ $age= array('kapu' => 23, 'himanshu'=>24,'apu'=>24,'manju'=>25,);
+  foreach ($age as $key => $value) {
+    echo"<br>Age of $key is $value";
+  }
+ 
 
 // multidimensional index Array
 echo"<h3>multidimensional index array</h3>";
