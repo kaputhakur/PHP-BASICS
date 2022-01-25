@@ -49,7 +49,9 @@ if($_GET['name'] || $_GET['age']){
 
 <!------------------------------------------------------ $_files----------------------------------------------- -->
 <h2>$_FILES Variable</h2>
-
+<?php
+echo "Filename: " . $_FILES['file']['name']
+?>
 <form method="post" action="#" enctype="multipart/form-data">
   FILE:<input type="file" name="file" id="file">
  <input type="submit" value="submit">   
