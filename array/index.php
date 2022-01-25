@@ -17,7 +17,7 @@ echo"<h3> Index array</h3>";
 $names=array('himanshu','kapu','apu','gitu');
 echo"<pre>";
 print_r($names);
-echo"$names[3] <br>";
+
 
 //  Associative array (we define key value in associative array)
  echo"<h3>associative array</h3>";
@@ -49,7 +49,7 @@ $age=['kapu'=>'23','himanshii'=>'22','sushma'=>'24','akshu'=>'21',];
   echo is_array ($age);
   
 // 3.  array_merge
- echo"<h3>Array merge function</h3>";
+ echo"<h2>Array merge function</h2>";
    $array= array(
           'website'=>array('search'=>'google','social'=>'facbook',),
            'frinds'=>['himnsshii','manish rana','Sushma'],
@@ -58,27 +58,8 @@ $merged=array_merge($array['website'],$array['frinds'] );
 print_r($merged);
  ?>
  
- 
 <?php
-$emp=[
-   [ 1,'Manish' ,'Manger','70,000' ],
-   [ 2,'Manu' ,'Salesman','50,000' ],
-   [ 3,'Manju' ,'Shopkeeper','40,000' ],
-   [ 4,'Monu' ,'computer operator','60,000' ],
-     
-];
-print_r($emp);
-
-// One way to create an indexed array
-$name_one = array("Zack", "Anthony", "Ram", "Salim", "Raghav");
- 
-// Accessing the elements directly
-echo "Accessing the 1st array elements directly:\n";
-echo $name_one[2], "\n";
-
-echo $name_one[4], "\n";
-echo"</pre>";
-
+echo"<h2> Table</h2>";
 $data=[
   ["id"=>1,"name"=>"maksud","mobile"=>"0187","address"=>"chandpur"],
   ["id"=>2,"name"=>"tonmoy","mobile"=>"0177","address"=>"dhaka"],
