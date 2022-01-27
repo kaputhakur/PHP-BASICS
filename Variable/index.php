@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variables</title>
 </head>
-<h2>Variable</h2>
-<!-- variable name start with _or letter   -->
+<h1> Predefinded Variable</h1><hr>
+<!-- variable name start with  $ _or letter   -->
+<h2>$Globals</h2>
+<p> $globals is used to acess global variables from anywhere in php script also from within function <b>the variable names are the key of the array</b></p>
+
+<!------------------------------------------------------ $_Server----------------------------------------------- -->
+   
 <h2> $_SERVER  Variable</h2>
 <?php
 // we can change variable name with & SIGN
@@ -25,28 +30,27 @@ echo"<br>";
 echo$_SERVER['HTTP_HOST'];echo"<br>";
  echo$_SERVER['HTTP_USER_AGENT'];// which browser is used 
 ?>
-<br><br>
+
+
 <!------------------------------------------------------ $_GET----------------------------------------------- -->
  <h2>$_GET Variable</h2>
 <?php
 // isset check weather variable is set and it is not null
-/*
-if(isset($_GET['name'])){
-    print_r($_GET);
-}
-*/
-if($_GET['name'] || $_GET['age']){
-   echo"Welcome"."\n".$_GET['name']."<br>";
-   echo"Your age is".$_GET['age']; 
-}
+
+// if(isset($_GET['name'])){
+//     print_r($_GET);
+// }
+
+ if($_GET['name'] || $_GET['age']){
+  echo"Welcome"."\n".$_GET['name']."<br>";
+    echo"Your age is".$_GET['age']; 
+ }
 ?>
 <form method="get" action="#">
  Name:<input type="text" name="name"/>
  Age:<input type="text" name="age"/>
  <input type="submit">
 </form>
-<!------------------------------------------------------ $_GET----------------------------------------------- -->
-
 <!------------------------------------------------------ $_files----------------------------------------------- -->
 <h2>$_FILES Variable</h2>
 <?php
@@ -59,7 +63,24 @@ if(isset($_FILES['file'])){
   FILE:<input type="file" name="file" id="file">
  <input type="submit" value="send file">   
 </form>
-
-
+ <hr>
+ <!------------------------------------------------------Variable scope----------------------------------------------- -->
+  <h1>Variable Scope </h1>
+  <!--local scope variable declared within the function are local scope and can only accessed  within that function --->
+   <?php
+    function test(){
+        $a=1;
+        echo"hey $a";
+    }
+    test();
+    ?>
+   <!--  Global scope variable declared outside a function and can only accessed outside that function --->
+    <?php
+     $B="hello";
+     function mytest(){
+         
+     }
+     echo"$B himanshii";
+     ?>
 </body>
 </html>
