@@ -74,8 +74,35 @@ foreach($data as $row) {
 echo '</tr>';
 }
 echo '</tbody></table>';
-
+echo"</pre>";
 ?>
+<!-- multidimensional array -->
+<?php
+ $class=array(
+    array('S NO.','Name','age'),
+    array('1','kpu','23'),
+    array('2','Tanu','22'),
+    array('3','Mridu','22'),    
+  
+      );
+  foreach ($class as $arraylist) {
+    foreach ($arraylist as $k) {
+     echo $k."<br>";
+    }
+  }
+
+// array in select
+echo"<br>";
+
+$fruit=['appel','orange','grapes',];
+?>
+Select Fruit:<select>
+<?php
+ foreach ($fruit as $arrlist) {
+ echo'<option>'.$arrlist.'</option>';
+ }
+?>
+</select>
 
 </body>
  </html>
