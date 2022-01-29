@@ -41,8 +41,8 @@ echo$_SERVER['HTTP_HOST'];echo"<br>";
 //     print_r($_GET);
 // }
 
- if($_GET['name'] || $_GET['age']){
-  echo"Welcome"."\n".$_GET['name']."<br>";
+ if(isset($_GET['name']) || isset($_GET['age'])){
+  echo"Welcome".$_GET['name']."<br>";
     echo"Your age is".$_GET['age']; 
  }
 ?>
@@ -68,19 +68,51 @@ if(isset($_FILES['file'])){
   <h1>Variable Scope </h1>
   <!--local scope variable declared within the function are local scope and can only accessed  within that function --->
    <?php
-    function test(){
-        $a=1;
-        echo"hey $a";
+   function test(){
+        $a="Kpu";
+        echo"hey $a <br>";
     }
     test();
+    
+    //global and local variable 
+     $age=23;
+    function myfunction(){
+        $name="Tanu";
+        echo"hey $name How old are you";
+    }
+    myfunction();
+    echo"I am $age years old";
     ?>
+    <br>
    <!--  Global scope variable declared outside a function and can only accessed outside that function --->
     <?php
      $B="hello";
      function mytest(){
          
      }
-     echo"$B himanshii";
-     ?>
-</body>
+     echo"$B Himanshii <br>";
+    
+    //  <!-- declared global variable with in function -->
+      $a=20;
+      $b=10;
+      function sum(){
+          global $a,$b;
+          $c=$a+$b;
+          echo $c;
+      } 
+      sum();
+     
+      ?>
+      <?php
+       $a="Kpu";
+       $b="Thakur";
+      
+       function newtest(){
+           global $a,$b;
+             return $a.$b;
+       }
+      echo newtest();
+ 
+      ?>
+    </body>
 </html>
