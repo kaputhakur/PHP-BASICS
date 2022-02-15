@@ -104,5 +104,19 @@ Select Fruit:<select>
 ?>
 </select>
 
+<?php
+$name=['kapu','Himanshi','Sushma','Gita',['12','34','23'],];
+?>
+    Select name: <select>
+      <?php
+      foreach ($name as $value) {
+        foreach ($value as $arrylist) {
+          echo"<option>".$arrylist."</option>";
+        }
+      
+      }
+      ?>
+</select>
+
 </body>
  </html>
