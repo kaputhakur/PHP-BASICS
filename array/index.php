@@ -64,7 +64,7 @@ $data=[
   ["id"=>1,"name"=>"maksud","mobile"=>"0187","address"=>"chandpur"],
   ["id"=>2,"name"=>"tonmoy","mobile"=>"0177","address"=>"dhaka"],
   ["id"=>3,"name"=>"abir","mobile"=>"0155","address"=>"khulna"]];
-
+print_r($data);
 echo '<table><tbody>'; 
 foreach(['id','name','mobile'] as $attribute) {
 echo '<tr><td>'.$attribute.'</td>';
@@ -117,6 +117,32 @@ $name=['kapu','Himanshi','Sushma','Gita',['12','34','23'],];
       }
       ?>
 </select>
+<?php
+echo"<pre>";
+ $array=['school'=>
+                  ['classes'=>['Class10th'=>
+                  ['classroom'=>['RoomNo11','RoomNo12'],
+                  'subject'=>['Hindi','English','Maths','Science'],
+                  'Teacher','student','time'],
+                  'class+1','class+2'],
+                  
+                  
+                  
+                  
+                 
+                 
+                  
+                  'Teacher','Subject'],];
+  print_r($array);
+  
+  
+  
+  
+  
+  
 
+
+
+?>
 </body>
  </html>
