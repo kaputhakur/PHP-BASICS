@@ -118,22 +118,7 @@ $name=['kapu','Himanshi','Sushma','Gita',['12','34','23'],];
       ?>
 </select>
 <?php
-echo"<pre>";
- $array=['school'=>
-                  ['classes'=>['Class10th'=>
-                  ['classroom'=>['RoomNo11','RoomNo12'],
-                  'subject'=>['Hindi','English','Maths','Science'],
-                  'Teacher','student','time'],
-                  'class+1','class+2'],
-                  
-                  
-                  
-                  
-                 
-                 
-                  
-                  'Teacher','Subject'],];
-  print_r($array);
+
   
   
   
