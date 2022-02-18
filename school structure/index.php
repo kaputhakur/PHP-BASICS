@@ -32,7 +32,7 @@
                   ['Name'=>'Satish Kumar','RollNo'=>'9','Age'=>'16','EmailId'=>'satish6576@gmail.com'], 
                   ['Name'=>'Dharmender thakur','RollNo'=>'10','Age'=>'15','EmailId'=>'dham45546@gmail.com'],
                 ],
-     'Teachers'=>[
+    'Teachers'=>[
                   ['Name'=>'Rajeev Kumar','Subject'=>'science','classTiming'=>'9:30am-10:10am','RomNo'=>'11',],
                   ['Name'=>'Santosh','Subject'=>'Hindi','classTiming'=>'10:10am-10:50am','RomNo'=>'11',],
                   ['Name'=>'Gopal','Subject'=>'Social science','classTiming'=>'10:50am-11:30am','RomNo'=>'11',],
@@ -43,14 +43,16 @@
                   ['Name'=>'Nitesh Kumar','Subject'=>'Computer science','classTiming'=>'2:10pm-3:00','RomNo'=>'13',],
                 ],
               
-    'ClassTiming'=>[['Subject'=>'Science','Timing'=>'9:30am-10:10am','RomNo'=>'11','Teacher'=>'Rajeev Kumar'],
-            ['Subject'=>'Hindi','Timing'=>'10:10am-10:50am','RomNo'=>'11','Teacher'=>'Rajeev Kumar'],
-            ['Subject'=>'Social science','Timing'=>'10:50am-11:30am','RomNo'=>'11','Teacher'=>'Gopal'],
-            ['Subject'=>'English','Timing'=>'11:30am-12:10pm','RomNo'=>'11','Teacher'=>'Sunita'],
-            ['Subject'=>'Sanskrit','Timing'=>'12:10pm-12:50am','RomNo'=>'11','Teacher'=>'Palak Rana'],
-                              //[Lunch time:12:50pm-1:30pm]  
-            ['Subject'=>'Maths','Timing'=>'1:30pm-2:10pm','RomNo'=>'11','Teacher'=>'Lekhraj'],
-            ['Subject'=>'Computer science','Timing'=>'2:10pm-3:00','RomNo'=>'13','Teacher'=>'Nitesh Kumar'],],
+    'ClassTiming'=>[
+                    ['Subject'=>'Science','Timing'=>'9:30am-10:10am','RomNo'=>'11','Teacher'=>'Rajeev Kumar'],
+                    ['Subject'=>'Hindi','Timing'=>'10:10am-10:50am','RomNo'=>'11','Teacher'=>'Rajeev Kumar'],
+                    ['Subject'=>'Social science','Timing'=>'10:50am-11:30am','RomNo'=>'11','Teacher'=>'Gopal'],
+                    ['Subject'=>'English','Timing'=>'11:30am-12:10pm','RomNo'=>'11','Teacher'=>'Sunita'],
+                    ['Subject'=>'Sanskrit','Timing'=>'12:10pm-12:50am','RomNo'=>'11','Teacher'=>'Palak Rana'],
+                                      //[Lunch time:12:50pm-1:30pm]  
+                    ['Subject'=>'Maths','Timing'=>'1:30pm-2:10pm','RomNo'=>'11','Teacher'=>'Lekhraj'],
+                    ['Subject'=>'Computer science','Timing'=>'2:10pm-3:00pm','RomNo'=>'13','Teacher'=>'Nitesh Kumar'],
+                  ],
     ], 
     // ==================================================Class10 ending=========================================================
 
@@ -68,7 +70,35 @@
                     ['Name'=>'Ankit','RollNo'=>'7','Age'=>'17','EmailId'=>'ankit344@gmail.com'],  
                     ['Name'=>'Ekta','RollNo'=>'8','Age'=>'16','EmailId'=>'ekta345@gmail.com'], 
                     ['Name'=>'Jyoti','RollNo'=>'9','Age'=>'16','EmailId'=>'jyoti6576@gmail.com'], 
-                    ['Name'=>'spana','RollNo'=>'10','Age'=>'16','EmailId'=>'spana45546@gmail.com'],],
+                    ['Name'=>'spana','RollNo'=>'10','Age'=>'16','EmailId'=>'spana45546@gmail.com'],
+                    ['Name'=>'Manish Rana','RollNo'=>'11','Age'=>'17','EmailId'=>'manishrana@gmail.com'],
+                    ['Name'=>'Digvijay','RollNo'=>'12','Age'=>'16','EmailId'=>'digu23@gmail.com'],
+                    ['Name'=>'Ajay tahkur','RollNo'=>'13','Age'=>'16','EmailId'=>'ajayx854@gmail.com'],
+                  ],
+      'Teachers'=>[
+                    ['Name'=>'Nishant Verma','Subject'=>'Maths','classTiming'=>'9:30am-10:30am','RomNo'=>'14',],
+                    ['Name'=>'Kanchan Rawat','Subject'=>'Chemistry Theory','classTiming'=>'10:30am-11:30am','RomNo'=>'14',],
+                    /*Chemistry Practical */ 
+                    ['Name'=>'Kanchan Rawat','Subject'=>'Chemistry Practical','ClassTiming'=>'10:30am-11:30am','RomNo'=>'15','Day'=>' Every Friday'],
+                    ['Name'=>'Neelam','Subject'=>'Physcics Theory','Timing'=>'11:30am-12:30pm','RomNo'=>'14',],
+                    /*Physics Practical */ 
+                    ['Name'=>'Neelam','Subject'=>'Physcics Practical','Timing'=>'11:30am-12:30pm','RomNo'=>'17','Day'=>'Every Friday'],
+                      //[Lunch time 12:30pm-1:00pm]  
+                    ['Name'=>'Lekhraj','Subject'=>'English','classTiming'=>'1:00pm-2:00pm','RomNo'=>'11',],
+                    ['Name'=>'Nitesh Kumar','Subject'=>'Computer science','classTiming'=>'2:00pm-3:00','RomNo'=>'13',],
+                  ], 
+     'ClassTiming'=>[
+                      ['Subject'=>'Maths','Timing'=>'9:30am-10:30am','RomNo'=>'14','Teacher'=>'Nishant Verma'],
+                      ['Subject'=>'Chemistry Theory','Timing'=>'10:30am-11:30am','RomNo'=>'14','Teacher'=>'Kanchan Rawat'],
+                      
+                      ['Subject'=>'Chemistry Practical','Timing'=>'10:30am-11:30am','RomNo'=>'11','Teacher'=>'Gopal'],
+                      ['Subject'=>'English','Timing'=>'11:30am-12:10pm','RomNo'=>'11','Teacher'=>'Sunita'],
+                      ['Subject'=>'Sanskrit','Timing'=>'12:10pm-12:50am','RomNo'=>'11','Teacher'=>'Palak Rana'],
+                                        //[Lunch time:12:50pm-1:30pm]  
+                      ['Subject'=>'Maths','Timing'=>'1:30pm-2:10pm','RomNo'=>'11','Teacher'=>'Lekhraj'],
+                      ['Subject'=>'Computer science','Timing'=>'2:10pm-3:00pm','RomNo'=>'13','Teacher'=>'Nitesh Kumar'],
+                  ],                    
+                 
       ],
      ['class12'=>[],],],
               
