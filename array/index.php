@@ -119,14 +119,14 @@ $name=['kapu','Himanshi','Sushma','Gita',['12','34','23'],];
 </select>
 <?php
 
+$school=[ 'class','Teachers','subjects'];  
   
   
   
   
   
-  
-
-
+echo'<pre>';
+print_r($school);
 
 ?>
 </body>

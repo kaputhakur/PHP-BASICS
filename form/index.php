@@ -7,15 +7,16 @@
     <title>Form Validation</title>
 </head>
 <body>
-<center>
+
   <h1> Form Validation </h1>
  <?php
-if(isset($_POST['name'])){
-  print_r($_POST);
-}
-  array();
+//  echo"<pre>";
+//     if(isset($_POST['name'])){
+//     print_r($_POST);
+//     }
+//     echo"</pre>";
   ?>
- <form action="#" method="post">
+ <!-- <form action="#" method="post">
   Name: <input type="text" name="name"> <br><br>
    E-mail:  <input type="text" name="email"><br><br>
    Password: <input type="password" name="pwd"><br><br>
@@ -30,11 +31,22 @@ if(isset($_POST['name'])){
      <input type="reset" value="reset">
      <input type="submit" value="submit">
             
+ </form> -->
+ <br><br><br><br>
+
+ <form action="action.php" method="post">
+   First Name:<input type="text" name="name"><br><br>
+   Last Name:<input type="text" name="lname"><br><br>
+   Gender:<br>
+        Female:<input type="radio" name="gender" value="Female">
+        Male:<input type ="radio" name="gender" value="Male">
+        Other:<input type= "radio" name= "gender" vlaue="other"> <br><br>
+   Email Id:<input type="text" name="email"><br><br>
+   Password:<input type="password" name="pwd"><br><br>
+     
+  
+   <input type="submit" >
  </form>
- </center>  
- <?php
-  $arr=$arrayName = array('abw' => heloo, );
- ?>
 
 </body>
 </html>
