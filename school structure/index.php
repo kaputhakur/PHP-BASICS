@@ -285,7 +285,7 @@
 
 
   echo '<pre>';
-  print_r($school['Classes']['Class10']['Class']);
+  print_r($school['Classes']['Class10']['Students']);
   ?>
 
 </body>
