@@ -18,7 +18,8 @@
     [
       //=================================================Classes============================================
 
-      'Classes' => [
+      'Classes' =>
+      [
         //================================== Class10 =============================================
 
         'Class10' =>
@@ -359,42 +360,42 @@
       //=================================================Teachers========================================= 
       'Teachers' =>
       [
-       'Class10' =>
-       [
-         ['Teacher' => 'Rajeev Kumar', 'Qualification' => 'M.sc', 'Subject' => 'science', 'class' => '10th', 'classTiming' => '9:30am-10:10am', 'RomNo' => '11',],
-         ['Teacher' => 'Santosh', 'Qualification' => 'B.ed,M.A', 'Subject' => 'Hindi', 'class' => '10th', 'classTiming' => '10:10am-10:50am', 'RomNo' => '11',],
-         ['Teacher' => 'Gopal', 'Qualification' => 'B.ed,M.A', 'Subject' => 'Social science', 'class' => '10th', 'classTiming' => '10:50am-11:30am', 'RomNo' => '11',],
-         ['Teacher' => 'Sunita', 'Qualification' => 'B.ed,M.A', 'Subject' => 'English', 'class' => '10th', 'classTiming' => '11:30am-12:10pm', 'RomNo' => '11',],
-         ['Teacher' => 'Palak Rana', 'Qualification' => 'M.sc', 'Subject' => 'Sanskrit', 'class' => '10th', 'classTiming' => '12:10pm-12:50am', 'RomNo' => '11',],
-         ['Teacher' => 'Lekhraj', 'Qualification' => 'M.sc,B.ed', 'Subject' => 'Maths', 'class' => '10th', 'classTiming' => '1:30pm-2:10pm', 'RomNo' => '11',],
-         ['Teacher' => 'Nitesh Kumar', 'Qualification' => 'IT', 'Subject' => 'Computer science', 'class' => '10th', 'classTiming' => '2:10pm-3:00', 'RomNo' => '13',],
-       ],
+        'Class10' =>
+        [
+          ['Teacher' => 'Rajeev Kumar', 'Qualification' => 'M.sc', 'Subject' => 'science', 'class' => '10th', 'classTiming' => '9:30am-10:10am', 'RomNo' => '11',],
+          ['Teacher' => 'Santosh', 'Qualification' => 'B.ed,M.A', 'Subject' => 'Hindi', 'class' => '10th', 'classTiming' => '10:10am-10:50am', 'RomNo' => '11',],
+          ['Teacher' => 'Gopal', 'Qualification' => 'B.ed,M.A', 'Subject' => 'Social science', 'class' => '10th', 'classTiming' => '10:50am-11:30am', 'RomNo' => '11',],
+          ['Teacher' => 'Sunita', 'Qualification' => 'B.ed,M.A', 'Subject' => 'English', 'class' => '10th', 'classTiming' => '11:30am-12:10pm', 'RomNo' => '11',],
+          ['Teacher' => 'Palak Rana', 'Qualification' => 'M.sc', 'Subject' => 'Sanskrit', 'class' => '10th', 'classTiming' => '12:10pm-12:50am', 'RomNo' => '11',],
+          ['Teacher' => 'Lekhraj', 'Qualification' => 'M.sc,B.ed', 'Subject' => 'Maths', 'class' => '10th', 'classTiming' => '1:30pm-2:10pm', 'RomNo' => '11',],
+          ['Teacher' => 'Nitesh Kumar', 'Qualification' => 'IT', 'Subject' => 'Computer science', 'class' => '10th', 'classTiming' => '2:10pm-3:00', 'RomNo' => '13',],
+        ],
 
-       'Class+1' =>
-       [
-         ['Teacher' => 'Nishant Verma', 'Subject' => 'Maths', 'Qualification' => 'M.sc', 'class' => '+1', 'classTiming' => '9:30am-10:30am', 'RomNo' => '14',],
-         ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Theory', 'Qualification' => 'B.ed,M.sc', 'class' => '+1', 'classTiming' => '10:30am-11:30am', 'RomNo' => '14',],
-         ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Practical', 'class' => '+1', 'Timing' => '10:30am-11:30am', 'RomNo' => '15(Chem.Lab)', 'Day' => ' Every Friday'],
-         ['Teacher' => 'Neelam', 'Subject' => 'Physcics Theory', 'Qualification' => 'M.sc,PHD', 'class' => '+1', 'ClassTiming' => '11:30am-12:30pm', 'RomNo' => '14',],
-         ['Teacher' => 'Neelam', 'Subject' => 'Physcics Practical', 'Timing' => '11:30am-12:30pm', 'RomNo' => '17(Phy.Lab)', 'Day' => 'Every Friday'],
-         ['Teacher' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Qualification' => 'IT', 'class' => '+1', 'classTiming' => '1:00pm-2:00pm', 'RomNo' => '13',],
-         ['Teacher' => 'Anita', 'Subject' => 'English', 'Qualification' => 'B.ed,M.A', 'class' => '+1', 'classTiming' => '2:00pm-3:00', 'RomNo' => '14',],
-       ],
+        'Class+1' =>
+        [
+          ['Teacher' => 'Nishant Verma', 'Subject' => 'Maths', 'Qualification' => 'M.sc', 'class' => '+1', 'classTiming' => '9:30am-10:30am', 'RomNo' => '14',],
+          ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Theory', 'Qualification' => 'B.ed,M.sc', 'class' => '+1', 'classTiming' => '10:30am-11:30am', 'RomNo' => '14',],
+          ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Practical', 'class' => '+1', 'Timing' => '10:30am-11:30am', 'RomNo' => '15(Chem.Lab)', 'Day' => ' Every Friday'],
+          ['Teacher' => 'Neelam', 'Subject' => 'Physcics Theory', 'Qualification' => 'M.sc,PHD', 'class' => '+1', 'ClassTiming' => '11:30am-12:30pm', 'RomNo' => '14',],
+          ['Teacher' => 'Neelam', 'Subject' => 'Physcics Practical', 'Timing' => '11:30am-12:30pm', 'RomNo' => '17(Phy.Lab)', 'Day' => 'Every Friday'],
+          ['Teacher' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Qualification' => 'IT', 'class' => '+1', 'classTiming' => '1:00pm-2:00pm', 'RomNo' => '13',],
+          ['Teacher' => 'Anita', 'Subject' => 'English', 'Qualification' => 'B.ed,M.A', 'class' => '+1', 'classTiming' => '2:00pm-3:00', 'RomNo' => '14',],
+        ],
 
-       'Class+2' =>
-       [
-         ['Teacher' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Qualification' => 'IT', 'class' => '+2', 'classTiming' => '9:00am-10:30am', 'RomNo' => '13',],
-         ['Teacher' => 'Neelam', 'Subject' => 'Physcics Theory', 'Qualification' => 'M.sc,PHD', 'class' => '+2', 'ClassTiming' => '10:30am-11:30am', 'RomNo' => '18',],
-         ['Teacher' => 'Neelam', 'Subject' => 'Physcics Practical', 'class' => '+2', 'Timing' => '10:30am-11:30am', 'RomNo' => '17(Phy.Lab)', 'Day' => 'Every Thusrday'],
-         ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Theory', 'class' => '+2', 'Qualification' => 'B.ed,M.sc', 'classTiming' => '11:30am-12:30pm', 'RomNo' => '18',],
-         ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Practical', 'class' => '+2', 'Timing' => '11:30am-12:30pm', 'RomNo' => '15(Chem.Lab)', 'Day' => 'Every Thusrday'],
-         ['Teacher' => 'Anita', 'Subject' => 'English', 'Qualification' => 'B.ed,M.A', 'class' => '+2', 'classTiming' => '1:00pm-2:00pm', 'RomNo' => '18',],
-         ['Teacher' => 'Nishant Verma', 'Subject' => 'Maths', 'Qualification' => 'M.sc', 'classTiming' => '2:00pm-3:00pm', 'RomNo' => '18',],
-       ],
+        'Class+2' =>
+        [
+          ['Teacher' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Qualification' => 'IT', 'class' => '+2', 'classTiming' => '9:00am-10:30am', 'RomNo' => '13',],
+          ['Teacher' => 'Neelam', 'Subject' => 'Physcics Theory', 'Qualification' => 'M.sc,PHD', 'class' => '+2', 'ClassTiming' => '10:30am-11:30am', 'RomNo' => '18',],
+          ['Teacher' => 'Neelam', 'Subject' => 'Physcics Practical', 'class' => '+2', 'Timing' => '10:30am-11:30am', 'RomNo' => '17(Phy.Lab)', 'Day' => 'Every Thusrday'],
+          ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Theory', 'class' => '+2', 'Qualification' => 'B.ed,M.sc', 'classTiming' => '11:30am-12:30pm', 'RomNo' => '18',],
+          ['Teacher' => 'Kanchan Rawat', 'Subject' => 'Chemistry Practical', 'class' => '+2', 'Timing' => '11:30am-12:30pm', 'RomNo' => '15(Chem.Lab)', 'Day' => 'Every Thusrday'],
+          ['Teacher' => 'Anita', 'Subject' => 'English', 'Qualification' => 'B.ed,M.A', 'class' => '+2', 'classTiming' => '1:00pm-2:00pm', 'RomNo' => '18',],
+          ['Teacher' => 'Nishant Verma', 'Subject' => 'Maths', 'Qualification' => 'M.sc', 'classTiming' => '2:00pm-3:00pm', 'RomNo' => '18',],
+        ],
 
-     ],
+      ],
       
-     ];
+    ];
 
 
 
