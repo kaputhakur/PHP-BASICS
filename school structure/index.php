@@ -265,7 +265,7 @@
               'Computer Science' => 
               ['Subject' => ' Computer science', 'Teacher' => 'Nitesh Kumar', 'Class' => '10th', 'ClaasTiming' => '2:10pm-3:00'],
           ],
-          'Teacher'=>[
+          'Teachers'=>[
             'Rajeev Kumar'=>
                ['Name' => 'Rajeev Kumar','Subject' => 'science', 'class' => '10th', 'classTiming' => '9:30am-10:10am', 'RomNo' => '11',],
             'Santosh'=> 
@@ -304,22 +304,18 @@
                 ['Subject' => 'English', 'Teacher' => 'Anita', 'class' => '+1', 'classTiming' => '2:00pm-3:00', 'RomNo' => '14',],
             ],
           'Teachers' => [
-                'Rajeev Kumar'=>
-                   ['Name' => 'Rajeev Kumar','Subject' => 'science', 'class' => '10th', 'classTiming' => '9:30am-10:10am', 'RomNo' => '11',],
-                'Santosh'=> 
-                   ['Name' => 'Santosh','Subject' => 'Hindi', 'class' => '10th', 'classTiming' => '10:10am-10:50am', 'RomNo' => '11',],
-                'Gopal'=>
-                   ['Name' => 'Gopal', 'Subject' => 'Social science', 'class' => '10th', 'classTiming' => '10:50am-11:30am', 'RomNo' => '11',],
-                'Sunita'=>
-                   ['Name' => 'Sunita','Subject' => 'English', 'class' => '10th', 'classTiming' => '11:30am-12:10pm', 'RomNo' => '11',],
-                'Palak Rana'=>
-                   ['Subject' => 'Sanskrit', 'class' => '10th', 'classTiming' => '12:10pm-12:50am', 'RomNo' => '11',],
-                //[Lunch time:12:50pm-1:30pm]  
-                'Lekhraj'=>
-                   ['Name' => 'Lekhraj','Name' => 'Palak Rana', 'Subject' => 'Maths', 'class' => '10th', 'classTiming' => '1:30pm-2:10pm', 'RomNo' => '11',],
-                'Nitesh Kumar'=> 
-                   ['Name' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'class' => '10th', 'classTiming' => '2:10pm-3:00', 'RomNo' => '13',],
-              ],
+              'Nishant Verma'=>
+               ['Name' => 'Nishant Verma','Subject' => 'Maths', 'class' => '+1', 'classTiming' => '9:30am-10:30am', 'RomNo' => '14',],
+            'Kanchan Rawat'=>
+              ['Name' => 'Kanchan Rawat','Subject' => 'Chemistry Theory', 'class' => '+1', 'classTiming' => '10:30am-11:30am', 'RomNo' => '14',],
+            'Neelam'=>
+              ['Name' => 'Neelam','Subject' => 'Physcics Theory', 'class' => '+1', 'ClassTiming' => '11:30am-12:30pm', 'RomNo' => '14',],
+            //[Lunch time 12:30pm-1:00pm]  
+            'Nitesh Kumar' =>
+              ['Name' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'class' => '+1', 'classTiming' => '1:00pm-2:00pm', 'RomNo' => '13',],
+            'Anita ' =>
+              ['Name' => 'Anita','Subject' => 'English', 'class' => '+1', 'classTiming' => '2:00pm-3:00', 'RomNo' => '14',],
+          ],
         ],
 
         'Class+2' =>
