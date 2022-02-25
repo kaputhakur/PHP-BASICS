@@ -103,7 +103,7 @@
           'ClassRoom' => [
             'RoomNo14', 'RoomNo13(Computer Science)', 'RoomNo15(Chem.Lab)', 'RoomNo17(Phy.Lab)',
           ],
-          'subjects' =>
+          'Subjects' =>
            [
             'Maths'=>
                ['Subject' => 'Maths', 'Teacher' => 'Nishant Verma', 'class' => '+1', 'classTiming' => '9:30am-10:30am', 'RomNo' => '14',],
@@ -123,19 +123,19 @@
 
           ],
           'Students' => [
-            ['Name' => 'Sachin Kuamr', 'RollNo' => '1', 'Age' => '16', 'class' => '+1', 'EmailId' => 'sachin343@gmail.com'],
-            ['Name' => 'Vivek Thakur', 'RollNo' => '2', 'Age' => '17', 'class' => '+1', 'EmailId' => 'vivek58904@gmail.com'],
-            ['Name' => 'Hiamnshi Thakur', 'RollNo' => '3', 'Age' => '16', 'class' => '+1', 'EmailId' => 'himanshi839@gmail.com'],
-            ['Name' => 'Meenakshi', 'RollNo' => '4', 'Age' => '16', 'class' => '+1', 'EmailId' => 'Meenakshi34@gmail.com'],
-            ['Name' => 'Romesh Thakur', 'RollNo' => '5', 'Age' => '16', 'class' => '+1', 'EmailId' => 'romesh985@gmail.com'],
-            ['Name' => 'Mahima', 'RollNo' => '6', 'Age' => '15', 'class' => '+1', 'EmailId' => 'mahima@gmail.com'],
-            ['Name' => 'Ankit', 'RollNo' => '7', 'Age' => '17', 'class' => '+1', 'EmailId' => 'ankit344@gmail.com'],
-            ['Name' => 'Ekta', 'RollNo' => '8', 'Age' => '16', 'class' => '+1', 'EmailId' => 'ekta345@gmail.com'],
-            ['Name' => 'Jyoti', 'RollNo' => '9', 'Age' => '16', 'class' => '+1', 'EmailId' => 'jyoti6576@gmail.com'],
-            ['Name' => 'spana', 'RollNo' => '10', 'Age' => '16', 'class' => '+1', 'EmailId' => 'spana45546@gmail.com'],
-            ['Name' => 'Manish Rana', 'RollNo' => '11', 'Age' => '17', 'class' => '+1', 'EmailId' => 'manishrana@gmail.com'],
-            ['Name' => 'Digvijay', 'RollNo' => '12', 'Age' => '16', 'class' => '+1', 'EmailId' => 'digu23@gmail.com'],
-            ['Name' => 'Ajay tahkur', 'RollNo' => '13', 'Age' => '16', 'class' => '+1', 'EmailId' => 'ajayx854@gmail.com'],
+            'RollNo1' => ['Name' => 'Sachin Kuamr', 'RollNo' => '1', 'Age' => '16', 'class' => '+1', 'EmailId' => 'sachin343@gmail.com'],
+            'RollNo2' =>  ['Name' => 'Vivek Thakur', 'RollNo' => '2', 'Age' => '17', 'class' => '+1', 'EmailId' => 'vivek58904@gmail.com'],
+            'RollNo3' =>  ['Name' => 'Hiamnshi Thakur', 'RollNo' => '3', 'Age' => '16', 'class' => '+1', 'EmailId' => 'himanshi839@gmail.com'],
+            'RollNo4' =>  ['Name' => 'Meenakshi', 'RollNo' => '4', 'Age' => '16', 'class' => '+1', 'EmailId' => 'Meenakshi34@gmail.com'],
+            'RollNo5' =>['Name' => 'Romesh Thakur', 'RollNo' => '5', 'Age' => '16', 'class' => '+1', 'EmailId' => 'romesh985@gmail.com'],
+            'RollNo6' =>  ['Name' => 'Mahima', 'RollNo' => '6', 'Age' => '15', 'class' => '+1', 'EmailId' => 'mahima@gmail.com'],
+            'RollNo7' =>['Name' => 'Ankit', 'RollNo' => '7', 'Age' => '17', 'class' => '+1', 'EmailId' => 'ankit344@gmail.com'],
+            'RollNo8' =>  ['Name' => 'Ekta', 'RollNo' => '8', 'Age' => '16', 'class' => '+1', 'EmailId' => 'ekta345@gmail.com'],
+            'RollNo9' =>  ['Name' => 'Jyoti', 'RollNo' => '9', 'Age' => '16', 'class' => '+1', 'EmailId' => 'jyoti6576@gmail.com'],
+            'RollNo10' => ['Name' => 'spana', 'RollNo' => '10', 'Age' => '16', 'class' => '+1', 'EmailId' => 'spana45546@gmail.com'],
+            'RollNo11' =>  ['Name' => 'Manish Rana', 'RollNo' => '11', 'Age' => '17', 'class' => '+1', 'EmailId' => 'manishrana@gmail.com'],
+            'RollNo12' => ['Name' => 'Digvijay', 'RollNo' => '12', 'Age' => '16', 'class' => '+1', 'EmailId' => 'digu23@gmail.com'],
+            'RollNo13' =>['Name' => 'Ajay tahkur', 'RollNo' => '13', 'Age' => '16', 'class' => '+1', 'EmailId' => 'ajayx854@gmail.com'],
           ],
           'Teachers' => [
             'Nishant Verma'=>
@@ -396,8 +396,6 @@
       ],
       
     ];
-
-
 
   echo '<pre>';
   print_r($school['Classes']['Class+1']['ClassTiming']['Chemistry Practical']);
