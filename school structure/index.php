@@ -78,20 +78,20 @@
         [
           'Rooms' => [
             'No.' => ['13(Computer)', '14', '15(Chem.Lab)', '17(Phy.Lab)',],
-            'Capicity' => ['25',],
+            'Capicity' => '25'
             //  'Labs'=>['Chem.Lab'=>15,'Phy.Lab'=>17,] ,
             // 'Room.14', 'Room.13(Computer Science)', 'Room.15(Chem.Lab)', 'Room.17(Phy.Lab)',
           ],
           'Subjects' => [
-            [
-              ['Name' => 'Maths', 'Teacher' => 'Nishant Verma', 'Time' => '9:30am-10:30am', 'RoomNo.' => '14',],
-              ['Name' => 'Chemistry Theory', 'Teacher' => 'Kanchan Rawat', 'Time' => '10:30am-11:30am', 'RoomNo.' => '14',],
-              ['Name' => 'Chemistry Practical', 'Teacher' => 'Kanchan Rawat', 'Time' => '10:30am-11:30am', 'RoomNo.' => '15(Chem.Lab)', 'Day' => ' Every Friday'],
-              ['Name' => 'Physcics Theory', 'Teacher' => 'Neelam', 'Time' => '11:30am-12:30pm', 'RoomNo.' => '14',],
-              ['Name' => 'Physcics Practical', 'Teacher' => 'Neelam', 'Time' => '11:30am-12:30pm', 'RoomNo.' => '17(Phy.Lab)', 'Day' => 'Every Friday'],
-              ['Name' => 'Computer science', 'Teacher' => 'Nitesh Kumar', 'Time' => '1:00pm-2:00pm', 'RoomNo.' => '13',],
-              ['Name' => 'English', 'Teacher' => 'Anita', 'Time' => '2:00pm-3:00', 'RoomNo.' => '14',],
-            ],
+
+            ['Name' => 'Maths', 'Teacher' => 'Nishant Verma', 'Time' => '9:30am-10:30am', 'RoomNo.' => '14',],
+            ['Name' => 'Chemistry Theory', 'Teacher' => 'Kanchan Rawat', 'Time' => '10:30am-11:30am', 'RoomNo.' => '14',],
+            ['Name' => 'Chemistry Practical', 'Teacher' => 'Kanchan Rawat', 'Time' => '10:30am-11:30am', 'RoomNo.' => '15(Chem.Lab)', 'Day' => ' Every Friday'],
+            ['Name' => 'Physcics Theory', 'Teacher' => 'Neelam', 'Time' => '11:30am-12:30pm', 'RoomNo.' => '14',],
+            ['Name' => 'Physcics Practical', 'Teacher' => 'Neelam', 'Time' => '11:30am-12:30pm', 'RoomNo.' => '17(Phy.Lab)', 'Day' => 'Every Friday'],
+            ['Name' => 'Computer science', 'Teacher' => 'Nitesh Kumar', 'Time' => '1:00pm-2:00pm', 'RoomNo.' => '13',],
+            ['Name' => 'English', 'Teacher' => 'Anita', 'Time' => '2:00pm-3:00', 'RoomNo.' => '14',],
+
           ],
           'Students' => [
             ['Name' => 'Sachin Kuamr', 'RollNo' => '1', 'Age' => '16', 'Gender' => 'Male', 'EmailId' => 'sachin343@gmail.com'],
@@ -136,7 +136,7 @@
         [
           'Rooms' => [
             'No.' => ['18', '17(phy.Lab)', '15(Chem.Lab)', '13(Computer)',],
-            'Capicity' => ['40'],
+            'Capicity' => '40'
           ],
           'Subjects' => [
             ['Name' => 'Computer science', 'Teacher' => 'Nitesh Kumar', 'Time' => '9:00am-10:30am', 'RoomNo' => '13',],
@@ -190,27 +190,17 @@
       [
         ['Name' => 'Rajeev Kumar', 'Qualification' => 'M.sc', 'Subject' => 'science',],
         ['Name' => 'Santosh', 'Qualification' => 'B.ed,M.A', 'Subject' => 'Hindi',],
-        ['Name' => 'Gopal', 'Qualification' => 'B.ed,M.A', 'Subject' => 'Social science', 'classTiming' => '10:50am-11:30am', 'RomNo' => '11',],
-        ['Name' => 'Sunita', 'Qualification' => 'B.ed,M.A', 'Subject' => 'English', 'classTiming' => '11:30am-12:10pm', 'RomNo' => '11',],
-        ['Name' => 'Palak Rana', 'Qualification' => 'M.sc', 'Subject' => 'Sanskrit', 'classTiming' => '12:10pm-12:50am', 'RomNo' => '11',],
-        ['Name' => 'Lekhraj', 'Qualification' => 'M.sc,B.ed', 'Subject' => 'Maths', 'classTiming' => '1:30pm-2:10pm', 'RomNo' => '11',],
-        ['Name' => 'Nitesh Kumar', 'Qualification' => 'IT', 'Subject' => 'Computer science', 'classTiming' => '2:10pm-3:00', 'RomNo' => '13',],
+        ['Name' => 'Gopal', 'Qualification' => 'B.ed,M.A', 'Subject' => 'Social science',],
+        ['Name' => 'Sunita', 'Qualification' => 'B.ed,M.A', 'Subject' => 'English',],
+        ['Name' => 'Palak Rana', 'Qualification' => 'M.sc', 'Subject' => 'Sanskrit',],
+        ['Name' => 'Lekhraj', 'Qualification' => 'M.sc,B.ed', 'Subject' => 'Maths',],
+        ['Name' => 'Nitesh Kumar', 'Qualification' => 'IT', 'Subject' => 'Computer science',],
+        ['Name' => 'Nishant Verma', 'Qualification' => 'M.sc', 'Subject' => 'Maths',],
+        ['Name' => 'Kanchan Rawat', 'Qualification' => 'B.ed,M.sc', 'Subject' => 'Chemistry',],
+        ['Name' => 'Neelam',  'Qualification' => 'M.sc,PHD', 'Subject' => 'Physcics ',],
+        ['Name' => 'Anita',  'Qualification' => 'B.ed,M.A', 'Subject' => 'English',],
 
-        ['Name' => 'Nishant Verma', 'Subject' => 'Maths', 'Qualification' => 'M.sc',],
 
-        ['Name' => 'Kanchan Rawat', 'Subject' => 'Chemistry Theory', 'Qualification' => 'B.ed,M.sc', 'classTiming' => '10:30am-11:30am', 'RomNo' => '14',],
-        ['Name' => 'Kanchan Rawat', 'Subject' => 'Chemistry Practical', 'Timing' => '10:30am-11:30am', 'RomNo' => '15(Chem.Lab)', 'Day' => ' Every Friday'],
-        ['Name' => 'Neelam', 'Subject' => 'Physcics Theory', 'Qualification' => 'M.sc,PHD', 'ClassTiming' => '11:30am-12:30pm', 'RomNo' => '14',],
-        ['Name' => 'Neelam', 'Subject' => 'Physcics Practical', 'Timing' => '11:30am-12:30pm', 'RomNo' => '17(Phy.Lab)', 'Day' => 'Every Friday'],
-        ['Name' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Qualification' => 'IT', 'classTiming' => '1:00pm-2:00pm', 'RomNo' => '13',],
-        ['Name' => 'Anita', 'Subject' => 'English', 'Qualification' => 'B.ed,M.A', 'classTiming' => '2:00pm-3:00', 'RomNo' => '14',],
-        ['Name' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Qualification' => 'IT', 'classTiming' => '9:00am-10:30am', 'RomNo' => '13',],
-        ['Name' => 'Neelam', 'Subject' => 'Physcics Theory', 'Qualification' => 'M.sc,PHD', 'ClassTiming' => '10:30am-11:30am', 'RomNo' => '18',],
-        ['Name' => 'Neelam', 'Subject' => 'Physcics Practical', 'Timing' => '10:30am-11:30am', 'RomNo' => '17(Phy.Lab)', 'Day' => 'Every Thusrday'],
-        ['Name' => 'Kanchan Rawat', 'Subject' => 'Chemistry Theory', 'Qualification' => 'B.ed,M.sc', 'classTiming' => '11:30am-12:30pm', 'RomNo' => '18',],
-        ['Name' => 'Kanchan Rawat', 'Subject' => 'Chemistry Practical', 'Timing' => '11:30am-12:30pm', 'RomNo' => '15(Chem.Lab)', 'Day' => 'Every Thusrday'],
-        ['Name' => 'Anita', 'Subject' => 'English', 'Qualification' => 'B.ed,M.A', 'classTiming' => '1:00pm-2:00pm', 'RomNo' => '18',],
-        ['Name' => 'Nishant Verma', 'Subject' => 'Maths', 'Qualification' => 'M.sc', 'classTiming' => '2:00pm-3:00pm', 'RomNo' => '18',],
       ],
 
 
@@ -226,8 +216,18 @@
         ['Name' => 'English', 'Teacher' => 'Sunita Kumar', 'Class' => '10th', 'Time' => '1:30pm-2:10pm'],
         ['Name' => ' Computer science', 'Teacher' => 'Nitesh Kumar', 'Class' => '10th', 'Time' => '2:10pm-3:00'],
 
-        ['Name' => 'Maths', 'Teacher' => 'Nishant Verma', 'Time' => '9:30am-10:30am', 'RoomNo.' => '14',],
-        ['Name' => 'Chemistry Theory', 'Teacher' => 'Kanchan Rawat', 'Time' => '10:30am-11:30am', 'RomNo' => '14',],
+        'Maths' => [
+          'Teacher' => 'Nishant Verma',
+          'Class' => [
+            '11', '12',
+          ],
+          'Time' => [
+            'Class11' => '9:30am-10:30am',
+            'Class12' => '2:00pm-3:00pm',
+          ],
+        ],
+        ['Name' => 'Chemistry ', 'Teacher' => 'Kanchan Rawat', 'class' => '11 ,12'],
+        
         ['Name' => 'Chemistry Practical', 'Teacher' => 'Kanchan Rawat', 'Time' => '10:30am-11:30am', 'RomNo' => '15(Chem.Lab)', 'Day' => ' Every Friday'],
         ['Name' => 'Physcics Theory', 'Teacher' => 'Neelam', 'Time' => '11:30am-12:30pm', 'RomNo' => '14',],
         ['Name' => 'Physcics Practical', 'Teacher' => 'Neelam', 'Time' => '11:30am-12:30pm', 'RomNo' => '17(Phy.Lab)', 'Day' => 'Every Friday'],
@@ -254,7 +254,8 @@
 
 
   echo '<pre>';
-  print_r($school['Teachers']);
+  print_r($school['Subjects']);
+
   ?>
 
 </body>
