@@ -24,7 +24,7 @@
                 '10th' =>
                 [
                     'Rooms' => [
-                        ['Room' => '11', 'Capicity' => '30', 'Desk' => '15',],
+                        ['Room' => '11','Title' => 'All Class', 'Capicity' => '30', 'Desk' => '15',],
                         ['Room' => '13', 'Title' => 'Computer Lab', 'Computers' => '50', 'Capicity' => '40',],
                     ],
                     'Subjects' => [
@@ -174,7 +174,6 @@
                         ['Name' => 'Gopal', 'Subject' => 'Social science', 'Time' => '10:50am-11:30am', 'RoomNo.' => '11',],
                         ['Name' => 'Sunita', 'Subject' => 'English', 'Time' => '11:30am-12:10pm', 'RoomNo.' => '11',],
                         ['Name' => 'Palak Rana', 'Subject' => 'Sanskrit', 'Time' => '12:10pm-12:50am', 'RoomNo.' => '11',],
-                        ['Lunch time' => '12:50pm-1:30pm',],
                         ['Name' => 'Lekhraj', 'Subject' => 'Maths', 'Time' => '1:30pm-2:10pm', 'RoomNo.' => '11',],
                         ['Name' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Time' => '2:10pm-3:00', 'RoomNo.' => '13',],
                     ],
@@ -185,7 +184,7 @@
                         ['Subject' => 'Social science', 'Time' => '10:50am-11:30am', 'Teacher' => 'Gopal', 'RomNo' => '11',],
                         ['Subject' => 'English', 'Time' => '11:30am-12:10pm', 'Teacher' => 'Sunita', 'RomNo' => '11',],
                         ['Subject' => 'Sanskrit', 'Time' => '12:10pm-12:50am', 'Teacher' => 'Palak Rana', 'RomNo' => '11',],
-                        ['Lunch time' => '12:50pm-1:30pm'],
+                        [ 'Subject'=>'Lunch Time', 'Time' => '12:50pm-1:30pm'],
                         ['Subject' => 'Maths', 'Time' => '1:30pm-2:10pm', 'RomNo' => '11', 'Teacher' => 'Lekhraj'],
                         ['Subject' => 'Computer science', 'Time' => '2:10pm-3:00pm', 'RomNo' => '13', 'Teacher' => 'Nitesh Kumar'],
                     ],
@@ -196,7 +195,7 @@
                 '11th' =>
                 [
                     'Rooms' => [
-                        ['Room' => '14', 'Capicity' => '25',],
+                        ['Room' => '14', 'Title'=>'Theory','Capicity' => '25','Desk'=>'30',],
                         ['Room' => '13', 'Title' => 'Computer Lab', 'Computers' => '50', 'Capicity' => '40',],
                         ['Room' => '15', 'Title' => 'Chem.Lab', 'Capicity' => '30',],
                         ['Room' => '17', 'Title' => 'Phy.Lab', 'Capicity' => '30',],
@@ -373,7 +372,7 @@
                 '12th' =>
                 [
                     'Rooms' => [
-                        ['Room' => '18', 'Capicity' => '30',],
+                        ['Room' => '18','Title'=>'Theory', 'Capicity' => '30','Desk'=>'30',],
                         ['Room' => '13', 'Title' => 'Computer Lab', 'Computers' => '50', 'Capicity' => '40',],
                         ['Room' => '15', 'Title' => 'Chem.Lab', 'Capicity' => '30',],
                         ['Room' => '17', 'Title' => 'Phy.Lab', 'Capicity' => '30',],
@@ -534,7 +533,7 @@
                         ['Subject' => 'Physcics Theory', 'Time' => '10:30am-11:30am', 'RoomNo' => '18', 'Teacher' => 'Neelam',],
                         ['Subject' => 'Physcics Practical', 'Time' => '10:30am-11:30am', 'Teacher' => 'Neelam',  'RoomNo' => '17(phy.Lab)', 'Teacher' => 'Neelam', 'Day' => 'Every Thursday',],
                         ['Subject' => 'Chemistry Practical', 'Time' => '11:30am-12:30pm',  'Teacher' => 'Kanchan Rawat', 'RoomNo' => '15(Chem.Lab)', 'Day' => 'EveryThursday',],
-                        //[Lunch time:12:50pm-1:30pm]  
+                        ['Subjects'=>'Lunch' ,'Time'=>'12:50pm-1:30pm','Teacher' => '', 'RoomNo' => '',],
                         ['Subject' => 'English', 'Time' => '1:00pm-2:00pm', 'RoomNo' => '18', 'Teacher' => 'Anita'],
                         ['Subject' => 'Maths', 'Time' => '2:00pm-3:00pm', 'RoomNo' => '13(computer)', 'Teacher' => 'Nishant Verma',],
                     ],
@@ -548,26 +547,26 @@
             [
                 [
                     'Name' => 'Rajeev Kumar',
-                    'Qualification' => ['Degree' => 'B.sc', 'Master s' => 'M.sc',],
+                    'Qualification' => ['Degree' => 'B.sc', 'Master\'s' => 'M.sc',],
                     'Subject' => 'science',
                     'Class' => '10th',
 
                 ],
                 [
                     'Name' => 'Santosh',
-                    'Qualification' => ['Degree' => 'B.A ,B.ed', 'Master s' => 'M.A',],
+                    'Qualification' => ['Degree' => 'B.A ,B.ed', 'Master\'s' => 'M.A',],
                     'Subject' => 'Hindi',
                     'Class' => '10th',
                 ],
                 [
                     'Name' => 'Gopal',
-                    'Qualification' => ['Degree' => 'B.A ,B.ed', 'Master s' => 'M.A',],
+                    'Qualification' => ['Degree' => 'B.A ,B.ed', 'Master \'s' => 'M.A',],
                     'Subject' => 'Social science',
                     'Class' => '10th',
                 ],
                 [
                     'Name' => 'Sunita',
-                    'Qualification' =>  ['Degree' => 'B.A ', 'Masters' => 'M.A',],
+                    'Qualification' =>  ['Degree' => 'B.A ', 'Master\'s' => 'M.A',],
                     'Subject' => 'English',
                     'Class' => '10th',
                 ],
@@ -579,7 +578,7 @@
                 ],
                 [
                     'Name' => 'Lekhraj',
-                    'Qualification' =>  ['Degree' => 'B.A ,B.ed', 'Masters' => 'M.sc',],
+                    'Qualification' =>  ['Degree' => 'B.A ,B.ed', 'Master\'s' => 'M.sc',],
                     'Subject' => 'Maths',
                     'Class' => '10th',
                 ],
@@ -591,19 +590,19 @@
                 ],
                 [
                     'Name' => 'Nishant Verma',
-                    'Qualification' => ['Degree' => 'B.sc', 'Masters' => 'M.sc',],
+                    'Qualification' => ['Degree' => 'B.sc', 'Master\'s' => 'M.sc',],
                     'Subject' => 'Maths',
                     'Class' => ['11th', '12th'],
                 ],
                 [
                     'Name' => 'Kanchan Rawat',
-                    'Qualification' => ['Degree' => 'B.sc', 'Masters' => 'M.sc,PHD',],
+                    'Qualification' => ['Degree' => 'B.sc', 'Master\'s' => 'M.sc,PHD',],
                     'Subject' => 'Chemistry',
                     'Class' => ['11th', '12th'],
                 ],
                 [
                     'Name' => 'Neelam',
-                    'Qualification' => ['Degree' => 'B.sc', 'Masters' => 'M.sc,PHD',],
+                    'Qualification' => ['Degree' => 'B.sc', 'Master\'s' => 'M.sc,PHD',],
                     'Subject' => 'Physcics ',
                     'Class' => ['11th', '12th'],
                 ],
