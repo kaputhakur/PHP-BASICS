@@ -23,10 +23,9 @@
 
         '10th' =>
         [
-          'Room' => [
-            'No.' => ['11', '13(Computer)',],
-            'Capacity' => '30',
-            //  'Room.11','Room.13(ComputerScience)',
+          'Rooms' => [
+            ['Room' => '11', 'Capicity' => '30', 'Desk' => '15',],
+            ['Room' => '13', 'Title' => 'Computer Lab', 'Computers' => '50', 'Capicity' => '40',],
           ],
           'Subjects' => [
             ['Name' => 'science', 'Teacher' => 'Rajeev Kumar', 'Time' => '9:30am-10:10am', 'RoomNo' => '11'],
@@ -55,7 +54,7 @@
             ['Name' => 'Gopal', 'Subject' => 'Social science', 'Time' => '10:50am-11:30am', 'RoomNo.' => '11',],
             ['Name' => 'Sunita', 'Subject' => 'English', 'Time' => '11:30am-12:10pm', 'RoomNo.' => '11',],
             ['Name' => 'Palak Rana', 'Subject' => 'Sanskrit', 'Time' => '12:10pm-12:50am', 'RoomNo.' => '11',],
-            //[Lunch time:12:50pm-1:30pm]  
+            ['Lunch time' => '12:50pm-1:30pm',],
             ['Name' => 'Lekhraj', 'Subject' => 'Maths', 'Time' => '1:30pm-2:10pm', 'RoomNo.' => '11',],
             ['Name' => 'Nitesh Kumar', 'Subject' => 'Computer science', 'Time' => '2:10pm-3:00', 'RoomNo.' => '13',],
           ],
@@ -66,7 +65,7 @@
             ['Subject' => 'Social science', 'Time' => '10:50am-11:30am', 'Teacher' => 'Gopal', 'RomNo' => '11',],
             ['Subject' => 'English', 'Time' => '11:30am-12:10pm', 'Teacher' => 'Sunita', 'RomNo' => '11',],
             ['Subject' => 'Sanskrit', 'Time' => '12:10pm-12:50am', 'Teacher' => 'Palak Rana', 'RomNo' => '11',],
-            //[Lunch time:12:50pm-1:30pm]  
+            ['Lunch time' => '12:50pm-1:30pm'],
             ['Subject' => 'Maths', 'Time' => '1:30pm-2:10pm', 'RomNo' => '11', 'Teacher' => 'Lekhraj'],
             ['Subject' => 'Computer science', 'Time' => '2:10pm-3:00pm', 'RomNo' => '13', 'Teacher' => 'Nitesh Kumar'],
           ],
@@ -74,13 +73,14 @@
 
         // ==================================================Class11 start=========================================================
 
-        '11' =>
+        '11th' =>
         [
           'Rooms' => [
-            'No.' => ['13(Computer)', '14', '15(Chem.Lab)', '17(Phy.Lab)',],
-            'Capicity' => '25'
-            //  'Labs'=>['Chem.Lab'=>15,'Phy.Lab'=>17,] ,
-            // 'Room.14', 'Room.13(Computer Science)', 'Room.15(Chem.Lab)', 'Room.17(Phy.Lab)',
+            ['Room' => '14', 'Capicity' => '25',],
+            ['Room' => '13', 'Title' => 'Computer Lab', 'Computers' => '50', 'Capicity' => '40',],
+            ['Room' => '15', 'Title' => 'Chem.Lab', 'Capicity' => '30',],
+            ['Room' => '17', 'Title' => 'Phy.Lab', 'Capicity' => '30',],
+
           ],
           'Subjects' => [
 
@@ -94,7 +94,7 @@
 
           ],
           'Students' => [
-            ['Name' => 'Sachin Kuamr', 'RollNo' => '1', 'Age' => '16', 'Gender' => 'Male', 'EmailId' => 'sachin343@gmail.com'],
+            ['Name' => 'Sachin Kuamr','RollNo' => '1','Age' => '16','Gender' => 'Male','EmailId' => 'sachin343@gmail.com',],
             ['Name' => 'Vivek Thakur', 'RollNo' => '2', 'Age' => '17', 'Gender' => 'Male', 'EmailId' => 'vivek58904@gmail.com'],
             ['Name' => 'Hiamnshi Thakur', 'RollNo' => '3', 'Age' => '16', 'Gender' => 'Female', 'EmailId' => 'himanshi839@gmail.com'],
             ['Name' => 'Meenakshi', 'RollNo' => '4', 'Age' => '16', 'Gender' => 'Female', 'EmailId' => 'Meenakshi34@gmail.com'],
@@ -107,6 +107,9 @@
             ['Name' => 'Manish Rana', 'RollNo' => '11', 'Age' => '17', 'Gender' => 'Female', 'EmailId' => 'manishrana@gmail.com'],
             ['Name' => 'Digvijay', 'RollNo' => '12', 'Age' => '16', 'Gender' => 'Male', 'EmailId' => 'digu23@gmail.com'],
             ['Name' => 'Ajay tahkur', 'RollNo' => '13', 'Age' => '16', 'Gender' => 'Male', 'EmailId' => 'ajayx854@gmail.com'],
+          
+               
+            ],
           ],
           'Teachers' => [
             ['Name' => 'Nishant Verma', 'Subject' => 'Maths', 'Time' => '9:30am-10:30am', 'RoomNo' => '14',],
@@ -132,11 +135,13 @@
         ],
 
         // ======================================================class12 Start ==========================================================
-        '12' =>
+        '12th' =>
         [
           'Rooms' => [
-            'No.' => ['18', '17(phy.Lab)', '15(Chem.Lab)', '13(Computer)',],
-            'Capicity' => '40'
+            ['Room' => '18', 'Capicity' => '30',],
+            ['Room' => '13', 'Title' => 'Computer Lab', 'Computers' => '50', 'Capicity' => '40',],
+            ['Room' => '15', 'Title' => 'Chem.Lab', 'Capicity' => '30',],
+            ['Room' => '17', 'Title' => 'Phy.Lab', 'Capicity' => '30',],
           ],
           'Subjects' => [
             ['Name' => 'Computer science', 'Teacher' => 'Nitesh Kumar', 'Time' => '9:00am-10:30am', 'RoomNo' => '13',],
@@ -182,7 +187,7 @@
             ['Subject' => 'Maths', 'Time' => '2:00pm-3:00pm', 'RoomNo' => '13(computer)', 'Teacher' => 'Nishant Verma',],
           ],
         ],
-      ],
+   
 
       // ===============================================Teacher=============================================
 
@@ -208,18 +213,21 @@
 
       'Subjects' =>
       [
-        ['Name' => 'Science', 'Teacher' => 'Rajeev Kumar', 'Class' => '10th', ],
-        ['Name' => 'Hindi', 'Teacher' => 'Santosh', 'Class' => '10th', ],
+        ['Name' => 'Science', 'Teacher' => 'Rajeev Kumar', 'Class' => '10th',],
+        ['Name' => 'Hindi', 'Teacher' => 'Santosh', 'Class' => '10th',],
         ['Name' => 'Social science', 'Teacher' => 'Gopal', 'Class' => '10th',],
         ['Name' => 'Maths', 'Teacher' => 'Lekhraj', 'Class' => '10th',],
         ['Name' => 'Sanskrit', 'Teacher' => 'Palak Rana', 'Class' => '10th',],
         ['Name' => 'English', 'Teacher' => 'Sunita Kumar', 'Class' => '10th',],
         ['Name' => ' Computer science', 'Teacher' => 'Nitesh Kumar', 'Class' => '10th,11,12',],
-        ['Name'=>'Maths','Teacher'=>'Nishant Verma','class'=>'11,12'],
+        ['Name' => 'Maths', 'Teacher' => 'Nishant Verma', 'class' => '11,12'],
         ['Name' => 'Chemistry ', 'Teacher' => 'Kanchan Rawat', 'class' => '11 ,12'],
-        ['Name' => 'Physcics ', 'Teacher' => 'Neelam','class'=>'11,12'],
+        ['Name' => 'Physcics ', 'Teacher' => 'Neelam', 'class' => '11,12'],
         ['Name' => 'English', 'Name' => 'Anita', 'class' => '11,12',],
       ],
+
+
+
 
 
 
@@ -228,7 +236,7 @@
 
 
   echo '<pre>';
-  print_r($school['Subjects']);
+  print_r($school['Classes']);
 
   ?>
 
