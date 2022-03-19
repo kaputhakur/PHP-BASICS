@@ -6,26 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <h1> School Stucture</h1>
 
     <?php
-
-
     $school =
         [
-            //=================================================Classes============================================
+            // ===============================================Classes=============================================
 
             'Classes' => [
-                //================================== Class10 =============================================
+
 
                 '10th' =>
                 [
                     'Rooms' => [
-                        ['Room' => '11', 'Title' => '10th', 'Capicity' => '30', 'Desk' => '15',],
-                        ['Room' => '13', 'Title' => 'Computer Lab', 'Computers' => '50', 'Capicity' => '40',],
+                        ['RoomNo.' => '11', 'Title' => '10th', 'Capicity' => '30', 'Desk' => '15',],
+                        ['RoomNo.' => '13', 'Title' => 'Computer Lab', 'Capicity' => '40', 'Desk' => '40',],
                     ],
                     'Subjects' => [
                         ['Name' => 'Science', 'Teacher' => 'Rajeev Kumar', 'Time' => '9:30am-10:10am', 'RoomNo' => '11'],
@@ -285,7 +284,7 @@
                                 'Physics' => '71',
                                 'English' => '74',
                                 'Computer' => '80',
-                                'Marks Obtained'=> '373',
+                                'Marks Obtained' => '373',
                                 'Max Marks' => '500',
                                 'Average' => '74.6',
                                 'Grade' => 'A+',
@@ -358,7 +357,7 @@
                                 'Physics' => '78',
                                 'English' => '87',
                                 'Computer' => '88',
-                                'Marks Obtained'=> '398',
+                                'Marks Obtained' => '398',
                                 'Max Marks' => '500',
                                 'Average' => '79.6',
                                 'Grade' => 'A+',
@@ -415,7 +414,7 @@
                                 'Physics' => '71',
                                 'English' => '70',
                                 'Computer' => '80',
-                                'Marks Obtained'=> '349',
+                                'Marks Obtained' => '349',
                                 'Max Marks' => '500',
                                 'Average' => '69.8',
                                 'Grade' => 'A',
@@ -610,7 +609,7 @@
                                 'English' => '89',
                                 'Computer' => '45',
                                 'Marks Obtained' => '314',
-                                'Max Marks'=>'500',
+                                'Max Marks' => '500',
                                 'Average' => '62.8',
                                 'Grade' => 'B+',
                             ],
@@ -628,7 +627,7 @@
                                 'English' => '89',
                                 'Computer' => '45',
                                 'Marks Obtained' => '314',
-                                'Max Marks'=>'500',
+                                'Max Marks' => '500',
                                 'Average' => '62.8',
                                 'Grade' => 'B+',
                             ],
@@ -647,7 +646,7 @@
                                 'English' => '89',
                                 'Computer' => '45',
                                 'Marks Obtained' => '314',
-                                'Max Marks'=>'500',
+                                'Max Marks' => '500',
                                 'Average' => '62.8',
                                 'Grade' => 'B+',
                             ],
@@ -676,9 +675,7 @@
                 ],
 
             ],
-            // ===============================================Teacher=============================================
-
-
+            // ===============================================Teachers=============================================
             'Teachers' =>
             [
                 [
@@ -754,7 +751,6 @@
 
 
             //=================================================Subjects========================================= 
-
             'Subjects' =>
             [
                 [
@@ -815,15 +811,40 @@
                 ],
             ],
         ];
-
-
-
-    echo '<pre>';
-    print_r($school['Classes']['12th']['Students']);
-
-
-
     ?>
+
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+
+                <th scope="col">Classes</th>
+                <th scope="col">RoomNO.</th>
+                <th scope="col">Title</th>
+                <th scope="col">Capicity </th>
+                <th scope="col">Desk</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">10th</th>
+
+                <td><?php echo $school['Classes']['10th']['Rooms']['0']['RoomNo.'] ?></td>
+                <td><?php echo $school['Classes']['10th']['Rooms']['0']['Title'] ?></td>
+                <td><?php echo $school['Classes']['10th']['Rooms']['0']['Capicity'] ?></td>
+                <td><?php echo $school['Classes']['10th']['Rooms']['0']['Desk'] ?></td>
+                <td><?php ?></td>
+            </tr>
+
+            <tr>
+                <th scope="row">10th</th>
+                <td><?php echo $school['Classes']['10th']['Rooms']['1']['RoomNo.']  ?></td>
+                <td><?php echo $school['Classes']['10th']['Rooms']['1']['Title'] ?></td>
+                <td><?php echo $school['Classes']['10th']['Rooms']['1']['Capicity'] ?></td>
+                <td><?php echo $school['Classes']['10th']['Rooms']['1']['Desk']?> </td>
+            </tr>
+            
+        </tbody>
+    </table>
 
 </body>
 

@@ -15,14 +15,20 @@ define("name","kalpana thakur");
  echo name."<br>";
 //  case-insesitive
 define("constant","Hello World",true);
-echo Constant."<br>";
+echo constant."<br>";
 // constant are global
 define("num","45");
 function test(){
     echo num;
 }
  test();
-?> 
+?>
+
+<?php
+define('like','Mango');
+echo like;
+
+?>
 <!--     const -->
    <?php
    const age = "23";
