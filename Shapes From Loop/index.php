@@ -1,48 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes From While loop</title>
+</head>
+<body>
+ <!-- Right Triangle-->
 <?php
-$r=1;
-while($r<=5){
-    $c=1;
-    while($c<=$r ){
-        echo" *";
-        $c++;
+$R=1;
+while($R<=10){
+   $C=1;
+   while($C<=$R){
+       echo" *";
+       $C++;
+   }
+   echo"<br>";
+   $R++;
     }
-    echo "<br>";
-    $r++;
-    
-  
-}
 ?>
-<br>
-
+<br><br>
+<?php
+// $a=10;
+// while($a<=20){
+//     $b=20;
+//     while($b>=$a){
+//         echo " *";
+//         $b--;
+//     }
+//     echo "<br/>";
+//     $a++;
+// }
+?>
  <?php
-$r=1;
-while($r<=5){
-    $c=$r;
-    while($c<=5 ){
+$R=1;
+while($R<=10){
+  $C=$R;
+  while($C<=10){
         echo" *";
-        $c++;
+        $C++;
     }
-    echo "<br>";
-    $r++;
-    
-  
+   echo "<br/>";
+    $R++;
 }
-
 ?>
-
+<br> <br>
 <?php
-$r=1;
-while($r<=5){
-    $c=1;
-    while($c<=$r){
-        echo" *";
-        $c++;
-    }
-    echo "<br>";
-    $r++;
+
+
     
   
-}
+
 
 ?>
+
  
+</body>
+</html>
