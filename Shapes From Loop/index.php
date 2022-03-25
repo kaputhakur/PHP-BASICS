@@ -7,7 +7,12 @@
     <title>Shapes From While loop</title>
 </head>
 <body>
- <!-- Right Triangle-->
+ <!-- Right Triangle
+*
+**
+****
+*****
+-->
 <?php
 $R=1;
 while($R<=10){
@@ -22,8 +27,8 @@ while($R<=10){
 ?>
 <br><br>
 <?php
-// $a=10;
-// while($a<=20){
+// $R=10;
+// while($R<=20){
 //     $b=20;
 //     while($b>=$a){
 //         echo " *";
@@ -33,6 +38,11 @@ while($R<=10){
 //     $a++;
 // }
 ?>
+<!-- 
+*****
+****
+**
+* -->
  <?php
 $R=1;
 while($R<=10){
@@ -46,14 +56,62 @@ while($R<=10){
 }
 ?>
 <br> <br>
+<!-- *****
+     *****
+     *****  -->
 <?php
-
-
-    
-  
-
-
+$OUTER=1;
+while($OUTER<=10){
+    $INNER=1;
+    while($INNER<=10){
+        echo" *";
+        $INNER++;
+    }
+    echo"<br>";
+    $OUTER++;
+}
 ?>
+<br><br>
+<!-- ******************
+     ******************
+     ****************** -->
+<?php
+$OUTER=1;
+while($OUTER<=5){
+    $INNER=1;
+    while($INNER<=10){
+        echo" *";
+        $INNER++;
+    }
+    echo"<br>";
+    $OUTER++;
+}
+?>
+
+<?php
+$i=1;
+while($i<=10){
+    $j=9;
+    while($j>=$i){
+        echo" &nbsp";
+        $j--;
+    }
+    $k=1;
+    while($k<=$i){
+        echo' *';
+        $k++;
+    }
+    echo"<br>";
+    $i++;
+}
+?>
+<br><br>
+
+
+
+
+
+
 
  
 </body>
