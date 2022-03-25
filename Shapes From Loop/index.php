@@ -7,12 +7,7 @@
     <title>Shapes From While loop</title>
 </head>
 <body>
- <!-- Right Triangle
-*
-**
-****
-*****
--->
+ <!-- Right Triangle-->
 <?php
 $R=1;
 while($R<=10){
@@ -25,40 +20,35 @@ while($R<=10){
    $R++;
     }
 ?>
-<br><br>
-<?php
-// $R=10;
-// while($R<=20){
-//     $b=20;
-//     while($b>=$a){
-//         echo " *";
-//         $b--;
+
+<!-- mirror right triangle -->
+ <?php
+// $R=1;
+// while($R<=10){
+//   $C=$R;
+//   while($C<=10){
+//         echo" *";
+//         $C++;
 //     }
-//     echo "<br/>";
-//     $a++;
+//    echo "<br/>";
+//     $R++;
 // }
 ?>
-<!-- 
-*****
-****
-**
-* -->
- <?php
+<br> <br>
+<?php
 $R=1;
 while($R<=10){
-  $C=$R;
-  while($C<=10){
-        echo" *";
-        $C++;
+  $C=10;
+  while($C>=$R){
+        echo"* ";
+        $C--;
     }
    echo "<br/>";
     $R++;
 }
 ?>
 <br> <br>
-<!-- *****
-     *****
-     *****  -->
+<!--square  -->
 <?php
 $OUTER=1;
 while($OUTER<=10){
@@ -72,9 +62,7 @@ while($OUTER<=10){
 }
 ?>
 <br><br>
-<!-- ******************
-     ******************
-     ****************** -->
+<!-- rectangle -->
 <?php
 $OUTER=1;
 while($OUTER<=5){
@@ -87,28 +75,83 @@ while($OUTER<=5){
     $OUTER++;
 }
 ?>
-
+<br><br>
+<!-- reverse right triangle -->
 <?php
-$i=1;
-while($i<=10){
-    $j=9;
-    while($j>=$i){
-        echo" &nbsp";
-        $j--;
+$outer=1;
+while($outer<=10){
+    $space=9;
+    while($space>=$outer){
+        echo"&nbsp ";
+        $space--;
     }
-    $k=1;
-    while($k<=$i){
-        echo' *';
-        $k++;
+    $print=1;
+    while($print<=$outer){
+        echo'*';
+        $print++;
     }
     echo"<br>";
-    $i++;
+    $outer++;
 }
 ?>
 <br><br>
-
-
-
+<!-- reverse mirror right triangle -->
+<?php
+$outer=10;
+while($outer>=1){
+    $space=9;
+    while($space>=$outer){
+        echo"&nbsp ";
+        $space--;
+    }
+    $print=1;
+    while($print<=$outer){
+        echo"*";
+        $print++;
+    }
+    echo"<br>";
+    $outer--;
+}
+?>
+<br><br>
+<!-- triangle -->
+<?php
+$outer=1;
+while($outer<=10){
+    $space=9;
+    while($space>=$outer){
+        echo"&nbsp";
+        $space--;
+    }
+   $print=1;
+   while($print<=$outer){
+       echo"* ";
+       $print++;
+       
+   }
+   echo"<br>";
+   $outer++;
+}
+?>
+<br><br>
+<!-- reverse triangle -->
+<?php
+$outer=10;
+while($outer>=1){
+    $space=9;
+    while($space>=$outer){
+        echo"&nbsp";
+        $space--;
+    }
+    $print=1;
+    while($print<=$outer){
+        echo"* ";
+        $print++;
+    }
+    echo"<br>";
+    $outer--;
+}
+?>
 
 
 
