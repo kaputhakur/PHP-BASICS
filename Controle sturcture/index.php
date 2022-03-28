@@ -13,6 +13,13 @@ if($b === $a){
 }
 echo" vlaue is in sting thats why it's false<br>";
 ?>
+<?php
+$x=10;
+$y=10;
+if($a===$b){
+    
+}
+?>
 
 <!-- If else staEMENT  execute code  if condition is ture or false -->
 <?Php
