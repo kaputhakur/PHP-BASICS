@@ -14,7 +14,7 @@
     <li>
       <hr class="dropdown-divider">
     </li>
-    <li><a class="dropdown-item" href="#">Teachers</a></li>
+    <li><a class="dropdown-item" href="#">Timming</a></li>
   </ul>
 </div>
 
@@ -24,13 +24,17 @@
     Subjects
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="#">Science</a></li>
+    <li><a class="dropdown-item" href="#">Hindi</a></li>
+    <li><a class="dropdown-item" href="#">Social Science</a></li>
+    <li><a class="dropdown-item" href="#">Maths</a></li>
+    <li><a class="dropdown-item" href="#">Sanskrit</a></li>
+    <li><a class="dropdown-item" href="#">English</a></li>
+    <li><a class="dropdown-item" href="#">Computer Science</a></li>
     <li>
       <hr class="dropdown-divider">
     </li>
-    <li><a class="dropdown-item" href="#">Separated link</a></li>
+    <li><a class="dropdown-item" href="#">Room No</a></li>
   </ul>
 </div>
 <div class="btn-group">
