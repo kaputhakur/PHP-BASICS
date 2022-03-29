@@ -1,58 +1,60 @@
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      
-      <th scope="col">Classes</th>
-      <th scope="col">RoomNo.</th>
-      <th scope="col">Title</th>
-      <th scope="col">Capicity </th>
-      <th scope="col">Desk</th>
-   
-    </tr>
-  </thead>
-  <tbody>
-      <h3>Rooms</h3>
-    <tr>
-      <th scope="row">10th</th>
-      <td><?php echo $school['Classes']['10th']['Rooms']['0']['RoomNo'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['0']['Title'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['0']['Capicity'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['0']['Desk'] ?></td>
-    </tr>
-    <tr>
-    <th scope="row">10th</th>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['RoomNo'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['Title'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['Capicity'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['Desk'] ?></td>
-    </tr>
-   </tbody>
-</table>
-<h3>Subjects</h3>
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      
-      <th scope="col">Subjects</th>
-      <th scope="col">Teacher</th>
-      <th scope="col">Time </th>
-      <th scope="col">RoomNo.</th>
-   
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row"><?php echo $school ['Classes']['10th']['Subjects']['0']['Name'] ?></th>
-     <td><?php echo $school ['Classes']['10th']['Subjects']['0']['Teacher']  ?></td>
-      <td><?php echo $school ['Classes']['10th']['Subjects']['0']['Time']  ?></td>
-      <td><?php echo $school ['Classes']['10th']['Subjects']['0']['RoomNo'] ?></td>
-    </tr>
-    <tr>
-    <th scope="row">10th</th>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['RoomNo'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['Title'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['Capicity'] ?></td>
-      <td><?php echo $school['Classes']['10th']['Rooms']['1']['Desk'] ?></td>
-    </tr>
-   </tbody>
-</table>
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Classes
+  </button>
+  <ul class="dropdown-menu">
+
+    <li>
+      <form class="dropdown-item" method="get" action="10th.php" target="_blank">
+        <input type="submit" value="10th" class=" btn btn-warning">
+      </form>
+    </li>
+    <li><a class="dropdown-item" href="#">11th</a></li>
+    <li><a class="dropdown-item" href="#">12th</a></li>
+    <li>
+      <hr class="dropdown-divider">
+    </li>
+    <li><a class="dropdown-item" href="#">Teachers</a></li>
+  </ul>
+</div>
+
+
+<div class="btn-group">
+  <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Subjects
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li>
+      <hr class="dropdown-divider">
+    </li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Teachers
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li>
+      <hr class="dropdown-divider">
+    </li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!-- 
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button> -->
