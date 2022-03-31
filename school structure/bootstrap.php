@@ -5,11 +5,9 @@
   <ul class="dropdown-menu">
 
     <li>
-      <form class="dropdown-item" method="get" action="10th.php" target="_blank">
-        <input type="submit" value="10th" class=" btn btn-warning">
-      </form>
+    <li><a class="dropdown-item" href="/testwork/school structure/form/">10th</a></li>
     </li>
-    <li><a class="dropdown-item" href="#">11th</a></li>
+   <li><a class="dropdown-item" href="/">11th</a></li>
     <li><a class="dropdown-item" href="#">12th</a></li>
     <li>
       <hr class="dropdown-divider">
@@ -51,14 +49,8 @@
     <li><a class="dropdown-item" href="#">Separated link</a></li>
   </ul>
 </div>
-<!-- 
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
 
-<button type="button" class="btn btn-link">Link</button> -->
+
+<?php
+
+?>
