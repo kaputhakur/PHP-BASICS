@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shapes From While loop</title>
+    <title>While </title>
 </head>
 
 <body>
@@ -181,43 +181,66 @@
         echo "<br>";
         $R1++;
     }
-  ?>
-     <!-- M -->
-     <h3>7.</h3>
-     <?php
-  
-  $R=10;
-  while($R>=2){
-      $space=9;
-      while($space>=$R){
-          echo"&nbsp ";
-          $space--;
-      }
-      $print=1;
-      while($print<=$R){
-          echo"*";
-          $print++;
-      }
-      echo"<br>";
-      $R--;
-  }
-     $R1=2;
-     while($R1<=10){
-         $space1=9;
-         while($space1>=$R1){
-             echo"&nbsp ";
-             $space1--;
-         }
-         $print1=1;
-         while($print1<=$R1){
-             echo"*";
-             $print1++;
-         }
-         echo"<br>";
-         $R1++;
-     }
-     ?>
-     
-</body>
+    ?>
+    <!-- M -->
+    <h3>7.</h3>
+    <?php
+
+    $R = 10;
+    while ($R >= 2) {
+        $space = 9;
+        while ($space >= $R) {
+            echo "&nbsp ";
+            $space--;
+        }
+        $print = 1;
+        while ($print <= $R) {
+            echo "*";
+            $print++;
+        }
+        echo "<br>";
+        $R--;
+    }
+    $R1 = 2;
+    while ($R1 <= 10) {
+        $space1 = 9;
+        while ($space1 >= $R1) {
+            echo "&nbsp ";
+            $space1--;
+        }
+        $print1 = 1;
+        while ($print1 <= $R1) {
+            echo "*";
+            $print1++;
+        }
+        echo "<br>";
+        $R1++;
+    }
+    ?>
+    <?php
+$i = 5;
+while ($i >=1){
+	$j=4;
+	while($j>5-$i){
+		echo "&nbsp ";
+		$j--;
+	}
+	$j=5;
+	while ($j>=$i) {
+		echo "*";
+		$j--;
+	}
+	echo " </br> ";
+	$i--;
+}
+?>
+<?php
+$outer=0;
+while($outer<=10){
+    $space=10;
+   
+}
+?>
+   </body>
 
 </html>

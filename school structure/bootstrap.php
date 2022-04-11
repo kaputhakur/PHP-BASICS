@@ -5,7 +5,9 @@
   <ul class="dropdown-menu">
 
     <li>
-    <li><a class="dropdown-item" href="/testwork/school structure/form/">10th</a></li>
+    <li><a class="dropdown-item" href="/testwork/school structure/10th.php/">10th</a>
+       
+   </li>
     </li>
    <li><a class="dropdown-item" href="/">11th</a></li>
     <li><a class="dropdown-item" href="#">12th</a></li>
@@ -51,6 +53,6 @@
 </div>
 
 
-<?php
+ <?php
 
 ?>

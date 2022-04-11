@@ -14,7 +14,7 @@
     <?php
     for ($r = 1; $r <= 10; $r++) {
         for ($c = 1; $c <= 10; $c++) {
-            echo " X";
+            echo " x";
         }
         echo "<br>";
     }
@@ -26,7 +26,7 @@
     <?php
     for ($outer = 1; $outer <= 5; $outer++) {
         for ($inner = 1; $inner <= 10; $inner++) {
-            echo " X";
+            echo " x";
         }
         echo "<br>";
     }
@@ -37,7 +37,7 @@
     <?php
     for ($r = 1; $r <= 10; $r++) {
         for ($c = 1; $c <= $r; $c++) {
-            echo " X";
+            echo " x";
         }
         echo "<br>";
     }
@@ -48,7 +48,7 @@
     <?php
     for ($outer = 1; $outer <= 10; $outer++) {
         for ($inner = 10; $inner >= $outer; $inner--) {
-            echo " X";
+            echo " x";
         }
         echo "<br>";
     }
@@ -60,12 +60,12 @@
     <h3>4.</h3>
     <?php
 
-    for ($outer = 1; $outer <= 10; $outer++) {
+    for ($outer = 0; $outer <= 10; $outer++) {
         for ($space = 9; $space >= $outer; $space--) {
             echo "&nbsp ";
         }
-        for ($print = 1; $print <= $outer; $print++) {
-            echo "X";
+        for ($print = 0; $print <= $outer; $print++) {
+            echo "x";
         }
         echo "<br>";
     }
@@ -75,12 +75,12 @@
     <!-- reverse -->
     <?php
 
-    for ($outer = 10; $outer >= 1; $outer--) {
+    for ($outer = 10; $outer >=0; $outer--) {
         for ($space = 9; $space >= $outer; $space--) {
             echo "&nbsp ";
         }
-        for ($print = 1; $print <= $outer; $print++) {
-            echo "X";
+        for ($print = 0; $print <= $outer; $print++) {
+            echo "x";
         }
         echo "<br>";
     }
@@ -94,10 +94,10 @@
 
     for ($outer = 1; $outer <= 10; $outer++) {
         for ($space = 9; $space >= $outer; $space--) {
-            echo " &nbsp";
+            echo " &nbsp ";
         }
         for ($print = 1; $print <= $outer; $print++) {
-            echo "X ";
+            echo "x  ";
         }
         echo "<br>";
     }
@@ -111,7 +111,7 @@
             echo "&nbsp ";
         }
         for ($print = 1; $print <= $outer; $print++) {
-            echo " X";
+            echo "x  ";
         }
         echo "<br>";
     }
@@ -122,13 +122,13 @@
     <?php
     for ($outer = 1; $outer <= 5; $outer++) {
         for ($inner = 1; $inner <= $outer; $inner++) {
-            echo "X ";
+            echo "x ";
         }
         echo "<br>";
     }
     for ($outer1 = 1; $outer1 <= 5; $outer1++) {
         for ($inner1 = 5; $inner1 >= $outer1; $inner1--) {
-            echo "X ";
+            echo "x ";
         }
         echo "<br>";
     }
@@ -139,13 +139,13 @@
     <?php
     for ($outer1 = 1; $outer1 <= 10; $outer1++) {
         for ($inner1 = 10; $inner1 >= $outer1; $inner1--) {
-            echo " X";
+            echo "x ";
         }
         echo "<br>";
     }
     for ($outer = 1; $outer <= 10; $outer++) {
         for ($inner = 1; $inner <= $outer; $inner++) {
-            echo " X";
+            echo "x ";
         }
         echo "<br>";
     }
@@ -158,7 +158,7 @@
             echo "&nbsp ";
         }
         for ($print = 1; $print <= $outer; $print++) {
-            echo "X";
+            echo "x ";
         }
         echo "<br>";
     }
@@ -167,7 +167,7 @@
             echo "&nbsp ";
         }
         for ($print1 = 1; $print1 <= $outer1; $print1++) {
-            echo "X";
+            echo "x ";
         }
         echo "<br>";
     }
@@ -175,22 +175,26 @@
     <br><br>
     <h3>9.</h3>
     <?php
-    //  for($outer=1;$outer<=10;$outer++){
-    //      for($inner=1;$inner<=$outer;$inner++){
-    //          echo"X ";
-    //      }
-    //      echo"<br>";
-    //  }
-    //  for($outer1=1;$outer1<=10;$outer1++){
-    //      for($space=9;$space>=$outer1;$space--){
-    //          echo"&nbsp ";
-    //      }
-    //      for($print=1;$print<=$outer1;$print++){
-    //          echo"X";
-    //      }
-    //      echo"<br>";
-    //  } 
-    ?>
+    for($outer=1;$outer<=10;$outer++){
+        for($space=9;$space>=$outer;$space--){
+            echo"&nbsp ";
+        }
+        for($print=1;$print<=$outer;$print++){
+            echo"x ";
+        }
+        echo"<br>";
+    }
+    for($R=1;$R<=5;$R++){
+        for($S=3;$S>= $R;$S--){
+            echo"&nbsp ";
+        }
+        for($C=1;$C<=5;$C++){
+            echo"x ";
+        }
+        echo"<br>";
+    }
+?>
+
 
 
 
