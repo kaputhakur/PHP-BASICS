@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 <body>
 <?php
 echo"Heloo";
-echo"<pre>";
+
 if(isset($_POST['name'])){
     print_r($_POST);
   }

@@ -206,11 +206,14 @@
   ]
   ?>
 <?php
-// $class=$school[$_GET["Classes"]];
-// echo  $class["10th"][$_GET["Rooms"]['RoomNo']];
+$class=$school[$_GET['Classes']];
+echo  $class;
+
+// $class= $school[$_GET['Classes']];
+//  echo $class['10th'][$_GET['Rooms']['0']['RoomNo']] ;
 ?>
  <?php
- echo $school['Classes']['10th']['Rooms']['0']['RoomNo']
+//  echo $school['Classes']['10th']['Rooms']['0']['RoomNo']
  ?>
   <table class="table">
     <thead class="thead-dark">
